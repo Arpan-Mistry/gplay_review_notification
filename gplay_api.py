@@ -1,6 +1,6 @@
 '''
 No need to run this api.......(this is just for Referance)
-I have Deployed this API on My Azure,Live link of same api: https://gplay-api.azurewebsites.net/key    plz enter pkg_name in place of key
+I have Deployed this API on My Heroku,Live link of same api: https://gplay-rev-api.herokuapp.com/key    plz enter pkg_name in place of key
 examples of package names : com.twitter.android OR com.facebook.katana OR com.whatsapp OR  com.phonepe.app ETC.......
 '''
 
