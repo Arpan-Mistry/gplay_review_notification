@@ -24,8 +24,8 @@ def registered(pkg_name,user_name,user_key,user_email):
     neg_count=0
     neg_per=0
     while(True):
-        #------------------deployed (gplay_api.py) on my azure so using that link (you can refer gplay_api.py file)
-        url='https://gplay-api.azurewebsites.net/'+pkg_name
+        #------------------deployed (gplay_api.py) on my heroku so using that link (you can refer gplay_api.py file)
+        url='https://gplay-rev-api.herokuapp.com/'+pkg_name
         r = requests.get(url).text
         json_obj = json.loads(r)
         # print(json_obj)  
